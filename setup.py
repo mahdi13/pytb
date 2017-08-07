@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 # reading package version (same way the sqlalchemy does)
 with open(join(dirname(__file__), 'pytb', '__init__.py')) as v_file:
-    package_version = re.compile(r".*__version__ = '(.*?)'", re.S).match(v_file.read()).group(1)
+    package_version = 'v0.1.1'
 
 dependencies = [
     'python-telegram-bot',
