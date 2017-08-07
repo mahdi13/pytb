@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-package_version = 'v0.1.1'
+package_version = 'v0.1.2'
 
 dependencies = [
     'python-telegram-bot',
